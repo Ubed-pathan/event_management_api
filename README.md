@@ -131,6 +131,8 @@ http://localhost:5000
   }
   ```
 
+  ![user create image](./sample-images/i03.png)
+
 ---
 
 ### Events API
@@ -153,6 +155,8 @@ http://localhost:5000
     "eventId": 1
   }
   ```
+
+  ![user create image](./sample-images/i01.png)
 
 #### Get Event Details
 - **GET** `/events/{id}`
@@ -178,6 +182,8 @@ http://localhost:5000
   }
   ```
 
+  ![user create image](./sample-images/i02.png)
+
 #### Get Upcoming Events
 - **GET** `/events/upcoming`
 - **Description**: Get all upcoming events (events with future dates)
@@ -198,6 +204,8 @@ http://localhost:5000
   }
   ```
 
+  ![user create image](./sample-images/i06.png)
+
 #### Register for Event
 - **POST** `/events/{id}/register`
 - **Description**: Register a user for an event
@@ -214,6 +222,8 @@ http://localhost:5000
   }
   ```
 
+  ![user create image](./sample-images/i04.png)
+
 #### Cancel Registration
 - **DELETE** `/events/{id}/register/{userId}`
 - **Description**: Cancel a user's registration for an event
@@ -223,6 +233,8 @@ http://localhost:5000
     "message": "Registration cancelled successfully"
   }
   ```
+
+  ![user create image](./sample-images/i05.png)
 
 #### Get Event Statistics
 - **GET** `/events/{id}/stats`
@@ -237,6 +249,7 @@ http://localhost:5000
     "percentageUsed": "25.00%"
   }
   ```
+  ![user create image](./sample-images/i07.png)
 
 ## Error Responses
 
