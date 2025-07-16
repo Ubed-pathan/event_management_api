@@ -282,10 +282,11 @@ The API returns appropriate HTTP status codes and error messages:
 ## Business Logic
 
 ### Event Registration Rules
-- Users cannot register for past events
-- Users cannot register twice for the same event
-- Registration is blocked when event reaches capacity
-- Capacity must be between 1 and 1000
+- Enforce registration limits per event 
+- Prevent double registration
+- Disallow registration for past events
+- Return appropriate HTTP status codes and messages for all failures 
+- Validate all input data properly 
 
 ### Validation Rules
 - All required fields must be provided
