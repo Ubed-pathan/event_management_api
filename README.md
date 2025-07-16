@@ -178,7 +178,7 @@ http://localhost:5000
   }
   ```
 
-  ![user create image](./sample-images/i02.png)
+  <!-- ![user create image](./sample-images/i02.png) -->
 
 #### Get Upcoming Events
 - **GET** `/events/upcoming`
