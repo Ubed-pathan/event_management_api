@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "app.js",
+    "routes/",
+    "prisma/"
+  ],
+  "ignore": [
+    "node_modules/",
+    "generated/",
+    "*.log"
+  ],
+  "ext": "js,json",
+  "delay": 2000,
+  "verbose": false
+}
