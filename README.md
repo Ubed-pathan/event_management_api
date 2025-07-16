@@ -167,8 +167,6 @@ http://localhost:5000
     "dateTime": "2025-08-15T09:00:00.000Z",
     "location": "Convention Center",
     "capacity": 100,
-    "createdAt": "2025-07-16T10:30:00.000Z",
-    "updatedAt": "2025-07-16T10:30:00.000Z",
     "registrations": [...],
     "registeredUsers": [
       {
@@ -195,8 +193,6 @@ http://localhost:5000
         "dateTime": "2025-08-15T09:00:00.000Z",
         "location": "Convention Center",
         "capacity": 100,
-        "createdAt": "2025-07-16T10:30:00.000Z",
-        "updatedAt": "2025-07-16T10:30:00.000Z"
       }
     ]
   }
