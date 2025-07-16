@@ -49,7 +49,7 @@ even-management-api/
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Ubed-pathan/event_management_api
    cd even-management-api
    ```
 
@@ -125,8 +125,6 @@ http://localhost:5000
       "id": 1,
       "name": "John Doe",
       "email": "john.doe@example.com",
-      "createdAt": "2025-07-16T10:30:00.000Z",
-      "updatedAt": "2025-07-16T10:30:00.000Z"
     }
   }
   ```
@@ -244,9 +242,9 @@ http://localhost:5000
   {
     "eventId": 1,
     "title": "Tech Conference 2025",
-    "totalRegistrations": 25,
-    "remainingCapacity": 75,
-    "percentageUsed": "25.00%"
+    "totalRegistrations": 0,
+    "remainingCapacity": 100,
+    "percentageUsed": "0.00%"
   }
   ```
   ![user create image](./sample-images/i07.png)
